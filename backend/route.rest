@@ -1,0 +1,95 @@
+GET http://localhost:3000/voters
+
+###
+
+GET http://localhost:3000/voters/642fbce58134140baabc0988
+
+
+###
+
+POST http://localhost:3000/voters
+Content-Type: application/json
+
+{
+    "name" : "abjith",
+    "aadharNumber" : "908768978673",
+    "password" : "dFn@1234",
+    "phoneNumber" : "6385315890"
+}
+###
+
+POST http://localhost:3000/voters
+Content-Type: application/json
+
+{
+    "name" : "tsering",
+    "aadharNumber" : "908768978678",
+    "password" : "d_2Sd1234",
+    "phoneNumber" : "6385355555",
+    "otpVerfied" : true
+}
+
+
+###
+
+DELETE http://localhost:3000/voters/642fbb1c1a501660794ef463
+
+
+###
+
+
+PATCH http://localhost:3000/voters/908767678989
+
+
+
+###
+GET http://localhost:3000/voters/908768978672
+
+
+###
+GET http://localhost:3000/admins
+
+###
+POST http://localhost:3000/admins
+Content-Type: application/json
+
+{
+    "name" : "Dev Prakash",
+    "employeeId" : "eci_2",
+    "password" : "dFn@4321",
+    "phoneNumber" : "9898989898"
+}
+
+
+###
+
+
+POST http://localhost:3000/createCandidates
+Content-Type: application/json
+
+{
+    "name" : "Lenin",
+    "aadharNumber" : "908768978555",
+    "party": "Communist Party of India",
+    "partyLogoUrl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/CPI-banner.svg/1280px-CPI-banner.svg.png",
+    "phoneNumber" : "6385315555"
+}
+
+###
+
+GET http://localhost:3000/createCandidates
+
+
+###
+GET http://localhost:3000/createCandidates/908768978999
+
+
+###
+
+GET http://localhost:3000/voteStats
+
+
+###
+
+PATCH http://localhost:3000/voteStats/6431b50915ec9d5db3eca86b
+
