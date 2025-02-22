@@ -1,6 +1,6 @@
-const TWILIO_ACCOUNT_SID = "AC87d4ad62f38b5decd08e6a8e972bb63a"
-const TWILIO_AUTH_TOKEN = "c023c5d935e7e585244e29297a9c2dd3"
-const TWILIO_SERVICE_SID = "VAd04e2b9f5cefe92300d9880f5c6685d5"
+const TWILIO_ACCOUNT_SID = "your_sid"
+const TWILIO_AUTH_TOKEN = "your_auth_token"
+const TWILIO_SERVICE_SID = "your_sid"
 const client = require('twilio')(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN, {
     lazyLoading: true
 })
